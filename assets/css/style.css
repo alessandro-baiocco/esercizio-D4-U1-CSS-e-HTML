@@ -66,8 +66,12 @@ main ul,
 ol li {
   margin-left: 40px;
 }
-main strong {
+main span {
   color: rgba(170, 32, 114, 255);
+}
+.table {
+  display: flex;
+  justify-content: center;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -85,7 +89,6 @@ table {
   border-bottom: 2px solid rgba(55, 105, 204, 255);
   height: 450px;
   table-layout: fixed;
-  text-align: center;
 }
 thead {
   background-color: rgba(55, 105, 204, 255);
@@ -106,14 +109,21 @@ aside div .article {
   height: 40px;
   margin: 20 auto;
   width: 92%;
-  height: 100px;
+  height: 150px;
 }
 aside div h3 {
   text-align: right;
   vertical-align: bottom;
 }
-
 /* FOOTER */
 footer {
   background: linear-gradient(0deg, rgba(14, 92, 106, 1) 39%, rgba(20, 127, 150, 1) 65%);
+  text-align: center;
+  height: fit-content;
+  padding: 10px 20px 30px 20px;
+  margin: 40px 0 40px 0;
+  color: white;
+}
+footer a {
+  color: rgba(255, 0, 254, 255);
 }
