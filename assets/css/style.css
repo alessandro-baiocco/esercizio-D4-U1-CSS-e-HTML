@@ -50,6 +50,7 @@ main {
   font-size: 18px;
   padding: 14px;
   line-height: 1.6;
+  box-shadow: 2px 5px 16px 0px #0b325e, 0px 0px 22px;
 }
 main h2 {
   padding-top: 20px;
@@ -129,6 +130,7 @@ aside {
   margin: 0 auto 0 auto;
   background-color: white;
   align-items: center;
+  box-shadow: 2px 5px 16px 0px #0b325e, 0px 0px 22px;
 }
 aside div .article {
   padding: 20px;
@@ -138,11 +140,20 @@ aside div .article {
   width: 380px;
   height: 150px;
   font-size: 25px;
+  line-height: 1.4;
 }
 aside div h3 {
   text-align: right;
   vertical-align: bottom;
   padding-top: 21%;
+  font-size: 16px;
+}
+
+.article a:active {
+  color: rgba(22, 172, 208, 255);
+}
+.article a:visited {
+  color: rgba(22, 172, 208, 255);
 }
 /* FOOTER */
 footer {
@@ -150,8 +161,9 @@ footer {
   text-align: center;
   height: fit-content;
   padding: 10px 20px 30px 20px;
-  margin: 40px 0 40px 0;
+  margin: 40px auto 40px auto;
   color: white;
+  font-size: 20px;
 }
 footer a {
   color: rgba(255, 0, 254, 255);
