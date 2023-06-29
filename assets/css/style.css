@@ -1,0 +1,118 @@
+* IMPOSTAZIONI GENERALI */ body {
+  background-image: url(../img/sfondo.png);
+  margin: 0 auto;
+  align-items: center;
+  width: 91%;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(0deg, rgba(12, 117, 136, 1) 46%, rgba(0, 153, 187, 1) 70%);
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  padding: 20px 10px 20px 10px;
+  margin-top: 30px;
+}
+
+header a {
+  color: white;
+}
+header h1 {
+  font-size: larger;
+}
+
+header ul {
+  list-style: none;
+  padding-bottom: 10px;
+}
+header img {
+  margin-bottom: 10px;
+}
+header h1 {
+  margin-bottom: 5px;
+}
+header img {
+  width: 230px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+/* MAIN */
+
+main {
+  background-color: white;
+  align-items: center;
+  font-size: 18px;
+  padding: 14px;
+  line-height: 1.6;
+}
+main h2 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+main p:first-of-type {
+  color: gray;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+main ul,
+ol li {
+  margin-left: 40px;
+}
+main strong {
+  color: rgba(170, 32, 114, 255);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+video {
+  border-radius: 19% 15% 13% / 16% 18% 16% 17%;
+  margin: 0 auto;
+}
+
+/* TABELLE */
+table {
+  border-spacing: 20px;
+  text-align: center;
+  padding: 30px;
+  vertical-align: middle;
+  border-bottom: 2px solid rgba(55, 105, 204, 255);
+  height: 450px;
+  table-layout: fixed;
+  text-align: center;
+}
+thead {
+  background-color: rgba(55, 105, 204, 255);
+  color: white;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+  margin-top: 0;
+  background-color: white;
+  align-items: center;
+}
+aside div .article {
+  padding: 10px;
+  background-color: rgba(223, 229, 230, 255);
+  height: 40px;
+  margin: 20 auto;
+  width: 92%;
+  height: 100px;
+}
+aside div h3 {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(0deg, rgba(14, 92, 106, 1) 39%, rgba(20, 127, 150, 1) 65%);
+}
