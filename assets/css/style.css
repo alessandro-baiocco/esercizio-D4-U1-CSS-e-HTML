@@ -16,6 +16,7 @@ header {
   color: white;
   padding: 40px 10px 40px 10px;
   margin-top: 30px;
+  font-weight: bold;
 }
 
 header a {
@@ -50,7 +51,7 @@ main {
   font-size: 18px;
   padding: 14px;
   line-height: 1.6;
-  box-shadow: 2px 5px 16px 0px #0b325e, 0px 0px 22px;
+  box-shadow: 8px 5px 16px 0px #0b325e, 0px 0px 22px;
 }
 main h2 {
   padding-top: 20px;
@@ -63,13 +64,19 @@ main p:first-of-type {
   font-size: 23px;
   margin-bottom: 20px;
 }
+.tag {
+  border: solid 1px gray;
+  background-color: rgba(128, 128, 128, 0.212);
+  border-radius: 18% 17% 16% 15% / 21% 18% 19% 18%;
+}
 
 main ul,
 ol li {
   margin-left: 40px;
 }
-main span {
+main span:not(.tag) {
   color: rgba(170, 32, 114, 255);
+  font-weight: bold;
 }
 .table {
   display: flex;
@@ -79,7 +86,13 @@ main span {
 /* ELEMENTI NEL MAIN - ARTICLE */
 video {
   border-radius: 19% 15% 13% / 16% 18% 16% 17%;
-  margin: 0 auto;
+  padding-left: 23px;
+}
+.article a:active {
+  color: rgba(22, 172, 208, 255);
+}
+.article a:visited {
+  color: rgba(22, 172, 208, 255);
 }
 
 /* TABELLE */
@@ -130,7 +143,7 @@ aside {
   margin: 0 auto 0 auto;
   background-color: white;
   align-items: center;
-  box-shadow: 2px 5px 16px 0px #0b325e, 0px 0px 22px;
+  box-shadow: 2px 30px 16px 0px #0b325e, 0px 0px 40px;
 }
 aside div .article {
   padding: 20px;
@@ -149,12 +162,10 @@ aside div h3 {
   font-size: 16px;
 }
 
-.article a:active {
-  color: rgba(22, 172, 208, 255);
+aside a {
+  color: #0099cc;
 }
-.article a:visited {
-  color: rgba(22, 172, 208, 255);
-}
+
 /* FOOTER */
 footer {
   background: linear-gradient(0deg, rgba(14, 92, 106, 1) 39%, rgba(20, 127, 150, 1) 65%);
