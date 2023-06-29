@@ -14,12 +14,13 @@ header {
   text-align: center;
   margin-bottom: 20px;
   color: white;
-  padding: 20px 10px 20px 10px;
+  padding: 30px 10px 30px 10px;
   margin-top: 30px;
 }
 
 header a {
   color: white;
+  text-decoration: none;
 }
 header h1 {
   font-size: larger;
@@ -95,7 +96,26 @@ thead {
   color: white;
 }
 
+th,
+td {
+  padding: 20px;
+}
+
+th:first-of-type {
+  vertical-align: bottom;
+}
+
 /* FORM */
+
+.form {
+  background-color: rgba(224, 226, 227, 255);
+  padding: 20px;
+}
+
+.form h2 {
+  font-size: 30px;
+  text-align: center;
+}
 
 /* ELEMENTI NELL' ASIDE */
 aside {
