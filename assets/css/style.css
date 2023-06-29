@@ -3,7 +3,7 @@ body {
   background-image: url(../img/sfondo.png);
   margin: 0 auto;
   align-items: center;
-  width: 91%;
+  width: 86%;
   font-family: "Pacifico", cursive;
   font-family: "Poppins", sans-serif;
 }
@@ -108,8 +108,11 @@ th:first-of-type {
 /* FORM */
 
 .form {
+  width: 380px;
+  margin: 0 auto;
   background-color: rgba(224, 226, 227, 255);
   padding: 20px;
+  align-items: center;
 }
 
 .form h2 {
@@ -118,8 +121,12 @@ th:first-of-type {
 }
 
 /* ELEMENTI NELL' ASIDE */
+aside h2:last-of-type {
+  text-align: center;
+  font-size: 30px;
+}
 aside {
-  margin-top: 0;
+  margin: 0 auto 0 auto;
   background-color: white;
   align-items: center;
 }
@@ -127,8 +134,8 @@ aside div .article {
   padding: 20px;
   background-color: rgba(223, 229, 230, 255);
   height: 40px;
-  margin: 20 auto;
-  width: 92%;
+  margin: 10px auto;
+  width: 380px;
   height: 150px;
   font-size: 25px;
 }
